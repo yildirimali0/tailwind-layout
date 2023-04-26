@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="h-32 text-center bg-red-300">Header</header>
+
+    <div class="flex-1 flex-col flex lg:flex-row">
+    
+        <main class=" bg-purple-300 text-center flex-1">Main</main>
+        <nav class="hidden text-center lg:w-32 bg-orange-300 sm:hidden lg:flex lg:order-first">Left Side</nav>
+        <aside class="hidden lg:w-32 text-center bg-indigo-300 sm:hidden lg:flex">Right Side</aside>
+        <div class="sm:flex lg:hidden">
+            <div class="basis-1/2 bg-orange-300 text-center h-32">Left Side</div>
+            <div class="basis-1/2 bg-indigo-300 text-center h-32">Right Side</div>
+        </div>
+      
+    </div>
+
+    <footer class="h-32 text-center bg-pink-300">Footer</footer>
+</body>
+</html>
